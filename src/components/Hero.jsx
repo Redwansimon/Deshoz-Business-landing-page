@@ -1,4 +1,4 @@
-import { CiStar } from "react-icons/ci"
+
 import heroimage from "../assets/hero-image.png"
 
 const Hero = () => {
@@ -9,9 +9,9 @@ const Hero = () => {
                 <div className=" w-full md:w-1/2 space-y-8">
                     {/* start badge */}
                     <div className="flex items-center gap-2 bg-gray-50 w-fit px-4 py-2 rounded-full hover:bg-gray-100 transition-colors cursor-pointer group">
-                        {/* <span className=" group-hover:scale-110 transition-transform">< CiStar className="text-blue-600"/></span> */}
-                        <span className="group-hover:scale-110 transition-transform ">
-                            <CiStar className="text-blue-600 group-hover:text-amber-500" />
+
+                        <span className="group-hover:scale-110 transition-transform text-blue-600 group-hover:text-amber-500">
+                            ★
                         </span>
                         <span className="text-sm font-semibold">jump start your growth</span>
                     </div>

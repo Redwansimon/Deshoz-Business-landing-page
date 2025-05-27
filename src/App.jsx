@@ -8,6 +8,8 @@ import Navbar from './components/Navbar'
 import PricingSection from './components/PricingSection'
 import PurposeSection from './components/PurposeSection'
 import ScheduleSection from './components/ScheduleSection'
+import ServiceSection from './components/ServiceSection'
+import Testimonial from './components/Testimonial'
 
 function App() {
 
@@ -23,6 +25,8 @@ function App() {
         <ScheduleSection/>
         <MonitorSection/>
         <PricingSection/>
+        <ServiceSection/>
+        <Testimonial/>
       </div>
 
     </main>
